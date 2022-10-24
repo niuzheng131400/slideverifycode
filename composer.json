@@ -7,6 +7,7 @@
         "composer/installers": "*"
     },
     "extra": {
+        "installer-type": "static",
         "installer-paths": {
             "./public/{$name}": ["niu/slideverifycodestatic"]
         }
