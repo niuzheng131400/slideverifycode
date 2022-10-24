@@ -8,11 +8,8 @@
     },
     "extra": {
         "installer-paths": {
-            "/public/{$name}": ["vendor/niu/slideverifycode"]
+            "./public/{$name}": ["niu/slideverifycodestatic"]
         }
-    },
-    "config": {
-        "secure-http": false
     },
     "license": "MIT",
     "autoload": {
