@@ -5,12 +5,12 @@
     "require": {
         "php": ">=5.6",
         "composer/installers": "*",
-        "oomphinc/composer-installers-extender" :"*"
+        "oomphinc/composer-installers-extender" :"*",
+        "niu/slideverifycodestatic": "v1.0"
     },
     "extra": {
-        "installer-type": "static",
         "installer-paths": {
-            "./public/{$name}": ["niu/slideverifycodestatic"]
+            "public/{$name}/": ["type:niu/slideverifycodestatic"]
         }
     },
     "license": "MIT",
