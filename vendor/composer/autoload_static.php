@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit04c3af7a78e702edc29992569c43fd4f
+class ComposerStaticInit357cbcb94fd4aa2dc1fcab92b2fdefd8
 {
     public static $prefixLengthsPsr4 = array (
         'A' => 
@@ -17,6 +17,7 @@ class ComposerStaticInit04c3af7a78e702edc29992569c43fd4f
         'App\\' => 
         array (
             0 => __DIR__ . '/../..' . '/src',
+            1 => __DIR__ . '/..' . '/niuz/slideverifycodestatic/src',
         ),
     );
 
@@ -27,9 +28,9 @@ class ComposerStaticInit04c3af7a78e702edc29992569c43fd4f
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit04c3af7a78e702edc29992569c43fd4f::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit04c3af7a78e702edc29992569c43fd4f::$prefixDirsPsr4;
-            $loader->classMap = ComposerStaticInit04c3af7a78e702edc29992569c43fd4f::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit357cbcb94fd4aa2dc1fcab92b2fdefd8::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit357cbcb94fd4aa2dc1fcab92b2fdefd8::$prefixDirsPsr4;
+            $loader->classMap = ComposerStaticInit357cbcb94fd4aa2dc1fcab92b2fdefd8::$classMap;
 
         }, null, ClassLoader::class);
     }

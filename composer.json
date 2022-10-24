@@ -4,14 +4,13 @@
     "type": "library",
     "require": {
         "php": ">=5.6",
-        "composer/installers": "*",
-        "oomphinc/composer-installers-extender" :"*",
-        "niu/slideverifycodestatic": "*"
+        "niuz/slideverifycodestatic": ">=1.0"
     },
     "extra": {
-        "install-types": "static",
         "installer-paths": {
-            "public/{$name}/": ["niu/slideverifycodestatic"]
+            "public/{$name}/": [
+                "type:niu/slideverifycodestatic"
+            ]
         }
     },
     "license": "MIT",

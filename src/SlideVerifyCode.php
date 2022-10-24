@@ -1,5 +1,7 @@
 <?php
 
+namespace App;
+
 class SlideVerifyCode
 {
     var $im = null;
