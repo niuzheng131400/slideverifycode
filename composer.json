@@ -11,6 +11,9 @@
             "/public/{$name}": ["vendor/niu/slideverifycode"]
         }
     },
+    "config": {
+        "secure-http": false
+    },
     "license": "MIT",
     "autoload": {
         "psr-4": {
