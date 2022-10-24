@@ -10,7 +10,7 @@
     },
     "extra": {
         "installer-paths": {
-            "public/{$name}/": ["type:niu/slideverifycodestatic"]
+            "public/{$name}/": ["niu/slideverifycodestatic"]
         }
     },
     "license": "MIT",
