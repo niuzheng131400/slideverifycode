@@ -9,6 +9,7 @@
         "niu/slideverifycodestatic": "v1.0"
     },
     "extra": {
+        "install-types": "static",
         "installer-paths": {
             "public/{$name}/": ["niu/slideverifycodestatic"]
         }
