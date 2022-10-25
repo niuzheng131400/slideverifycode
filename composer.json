@@ -3,16 +3,8 @@
     "description": "Sliding verification based on php+js",
     "type": "library",
     "require": {
-        "php": ">=5.6",
-        "niuz/slideverifycodestatic": ">=5.0"
+        "php": ">=5.6"
     },
-    "extra": {
-        "installer-types": ["library"],
-        "installer-paths": {
-            "./public/{$name}/": ["niuz/slideverifycodestatic"]
-        }
-    },
-
     "license": "MIT",
     "autoload": {
         "psr-4": {
