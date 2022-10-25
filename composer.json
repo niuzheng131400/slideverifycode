@@ -4,6 +4,7 @@
     "type": "library",
     "require": {
         "php": ">=5.6"
+
     },
     "license": "MIT",
     "autoload": {
@@ -17,5 +18,10 @@
             "email": "771036148@qq.com"
         }
     ],
-    "minimum-stability": "dev"
+    "minimum-stability": "dev",
+    "scripts": {
+        "post-install-cmd": [
+            "php -r \"copy('vendor/niuz/slideverifycode/src/static', '/public/vendor/niuz/slideverifycode');\""
+        ]
+    }
 }
