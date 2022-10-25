@@ -21,7 +21,7 @@
     "minimum-stability": "dev",
     "scripts": {
         "post-install-cmd": [
-            "php -r \"copy('vendor/niuz/slideverifycode/src/static', '/public/vendor/niuz/slideverifycode');\""
+            "php -r \"copy('vendor/niuz/slideverifycode/src/static', 'public/vendor/niuz/slideverifycode');\""
         ]
     }
 }
