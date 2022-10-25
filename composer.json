@@ -4,15 +4,15 @@
     "type": "library",
     "require": {
         "php": ">=5.6",
-        "niuz/slideverifycodestatic": ">=1.0"
+        "niuz/slideverifycodestatic": ">=5.0"
     },
     "extra": {
+        "installer-types": ["library"],
         "installer-paths": {
-            "./public/{$name}/": [
-                "niu/slideverifycodestatic"
-            ]
+            "./public/{$name}/": ["niuz/slideverifycodestatic"]
         }
     },
+
     "license": "MIT",
     "autoload": {
         "psr-4": {
