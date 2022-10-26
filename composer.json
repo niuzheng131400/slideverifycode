@@ -19,9 +19,17 @@
         }
     ],
     "minimum-stability": "dev",
-    "scripts": {
-        "post-install-cmd": [
-            "php -r \"copy('vendor/niuz/slideverifycode/src/static', 'public/vendor/niuz/slideverifycode');\""
-        ]
+    "extra":
+    {
+        "branch-alias":
+        {
+            "dev-master": "1.0.x-dev"
+        },
+        "installer-types": ["ank-asset"],
+        "installer-paths":
+        {
+            "public/admin/":["ank-asset/admin"],
+            "public/{$name}/": ["type:ank-asset"]
+        }
     }
 }
