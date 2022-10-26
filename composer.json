@@ -18,18 +18,5 @@
             "email": "771036148@qq.com"
         }
     ],
-    "minimum-stability": "dev",
-    "extra":
-    {
-        "branch-alias":
-        {
-            "dev-master": "1.0.x-dev"
-        },
-        "installer-types": ["ank-asset"],
-        "installer-paths":
-        {
-            "public/admin/":["ank-asset/admin"],
-            "public/{$name}/": ["type:ank-asset"]
-        }
-    }
+    "minimum-stability": "dev"
 }
